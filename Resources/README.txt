@@ -1,1 +1,6 @@
-Version.1 Asp.Net Acm Website
+Version.1 Asp.Net ACM Website
+
+************
+Project Team
+************
+1. Jeremy Garcia
