@@ -16,7 +16,8 @@ namespace ACM_Website.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            ViewBag.Stuff = "Im madle fo stuff";
+            ViewBag.ACM = "Stuff about the club";
             return View();
         }
 
