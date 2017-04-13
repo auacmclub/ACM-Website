@@ -1,5 +1,11 @@
-﻿body {
+﻿@font-face{
+   font-family: 'Futura_ICG';
+    src: url('../fonts/Futura_ICG.ttf') format('truetype');
+
+}
+body {
     padding-bottom: 20px;
+    font-family:Futura_ICG;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -20,4 +26,14 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+#fullnav{
+     
+}
+#infonav{
+    color:blue;
+    background-color:white;
+}
+#groupnav{
+    background-color:blue ;
 }
