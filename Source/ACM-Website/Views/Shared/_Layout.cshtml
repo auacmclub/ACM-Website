@@ -54,10 +54,13 @@
 	</nav>
     <!---->
     <!--Body Layoyut-->
-    <div class="container body-content">
-        @RenderBody() 
-        <hr />
-        <footer>
+    <div class="container body-content" id="maincontent">
+        @RenderBody()
+			<div class="" id="renderedbody">
+			</div>
+			<div class="" id="socialmedia">
+			</div>
+        <footer id="sitemap">
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
