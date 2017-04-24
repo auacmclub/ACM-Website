@@ -59,16 +59,21 @@
     <div class="container body-content">
 			<div class="row" id="renderedbody">
                 <div class="col-md-10" id="maincontent">
-                    <h1>Title Here</h1>
                     @RenderBody()
+                    <h1>Title Here</h1>
                 </div>
                 <div class="col-md-2" id="socialmedia">
                     <h2>Social Media</h2>
                 </div>
 			</div>
-        <footer id="sitemap">
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+        <div class="row">
+            <div class="col-md-12">
+                <footer id="sitemap">
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                </footer>
+            </div>
+        </div>
+
     </div>
     <!--Body close-->
 
