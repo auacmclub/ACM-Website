@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <!--NAV BAR CODE BETWEEN THESE LINES-->
+   <!--Navigation Layout-->
 	<nav class="navbar navbar-default" id="fullnav">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
@@ -21,7 +21,7 @@
 	        <span class="icon-bar"></span>
 	      </button>
 	      <a class="navbar-brand" href="#">AU ACM</a>
-	    </div>
+	    </div> <!--End of Nav Logo -->
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -41,24 +41,26 @@
 
 	          </ul>
 	        </li>
-	      </ul>
+	      </ul><!--End of Extra Links -->
 	      
 	      <ul class="nav navbar-nav navbar-right pull-right" id="groupnav">
 	            <li><a href="#">Web Development</a></li>
 	            <li><a href="#">Cyber Defense Team</a></li>
 	            <li><a href="#">Programming Team</a></li>
 	            <li><a href="#">Game Development</a></li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
+	      </ul><!--End of Division Link -->
+	    </div><!--End of Navbar -->
+	  </div><!--End of Container -->
 	</nav>
-    <!---->
-    <!--Body Layoyut-->
+   <!--Navigation Close -->
+
+
+   <!--Body Layoyut-->
     <div class="container body-content">
-        @RenderBody()
 			<div class="row" id="renderedbody">
                 <div class="col-md-10" id="maincontent">
                     <h1>Title Here</h1>
+                    @RenderBody()
                 </div>
                 <div class="col-md-2" id="socialmedia">
                     <h2>Social Media</h2>

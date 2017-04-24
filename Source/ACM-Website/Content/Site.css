@@ -27,13 +27,26 @@ select,
 textarea {
     max-width: 280px;
 }
-#fullnav{
-     
+
+/*Navigation CSS*/
+#fullnav{ /*Coloring this touches the entire nav, Andrew*/
+     font-weight:bold;
+
 }
-#infonav{
+#infonav{/*Coloring this touches the extra nav links, (e.g. blog, events,etc), Andrew*/
     color:blue;
     background-color:white;
 }
-#groupnav{
+#groupnav{ /*Coloring this touches the group division links, Andrew*/
     background-color:blue ;
+}
+/*Body CSS*/
+#renderedbody{
+
+}
+#maincontent{
+
+}
+#socialmedia{
+
 }
