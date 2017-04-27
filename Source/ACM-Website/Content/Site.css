@@ -50,13 +50,16 @@ textarea {
 }
 /*Body CSS*/
 #renderedbody{
-    
+    background-color:#A5ACAF;
+    color:black;
 
 }
 #maincontent{
-    background-color:#002f55;
-    color:white;
+    background-color:#A5ACAF;
+    color:black;
 }
 #socialmedia{
+    background-color: #002f55;
+    color:white;
 
 }
