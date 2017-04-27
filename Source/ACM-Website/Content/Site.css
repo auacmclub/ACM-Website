@@ -28,24 +28,34 @@ textarea {
     max-width: 280px;
 }
 
-/*Navigation CSS*/
+/*Navigation CSS
+    Bootstrap.css was edited for text on all nav bars to be white
+    */
 #fullnav{ /*Coloring this touches the entire nav, Andrew*/
      font-weight:bold;
+     color:white;
+     background-color:#002f55;
 
 }
 #infonav{/*Coloring this touches the extra nav links, (e.g. blog, events,etc), Andrew*/
-    color:blue;
-    background-color:white;
+    color:white !important;
+    background-color:#002f55;
+}
+#infonav li{
+    color:white;
 }
 #groupnav{ /*Coloring this touches the group division links, Andrew*/
-    background-color:blue ;
+    background-color:#A5ACAF;
+    color:white;
 }
 /*Body CSS*/
 #renderedbody{
+    
 
 }
 #maincontent{
-
+    background-color:#002f55;
+    color:white;
 }
 #socialmedia{
 
