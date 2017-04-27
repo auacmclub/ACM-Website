@@ -1,5 +1,11 @@
-﻿body {
+﻿@font-face{
+   font-family: 'Futura_ICG';
+    src: url('../fonts/Futura_ICG.ttf') format('truetype');
+
+}
+body {
     padding-bottom: 20px;
+    font-family:Futura_ICG;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -20,4 +26,27 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+/*Navigation CSS*/
+#fullnav{ /*Coloring this touches the entire nav, Andrew*/
+     font-weight:bold;
+
+}
+#infonav{/*Coloring this touches the extra nav links, (e.g. blog, events,etc), Andrew*/
+    color:blue;
+    background-color:white;
+}
+#groupnav{ /*Coloring this touches the group division links, Andrew*/
+    background-color:blue ;
+}
+/*Body CSS*/
+#renderedbody{
+
+}
+#maincontent{
+
+}
+#socialmedia{
+
 }

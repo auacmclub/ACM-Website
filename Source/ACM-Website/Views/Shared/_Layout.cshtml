@@ -9,8 +9,8 @@
 
 </head>
 <body>
-    <!--NAV BAR CODE BETWEEN THESE LINES-->
-	<nav class="navbar navbar-default">
+   <!--Navigation Layout-->
+	<nav class="navbar navbar-default" id="fullnav">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -21,51 +21,59 @@
 	        <span class="icon-bar"></span>
 	      </button>
 	      <a class="navbar-brand" href="#">AU ACM</a>
-	    </div>
+	    </div> <!--End of Nav Logo -->
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
+	      <ul class="nav navbar-nav" id="infonav">
 	        <li class="active"><a href="#">About Us <span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">Past</a></li>
+	        <li><a href="#">Event</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Agenda</a></li>
 	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Events<span class="caret"></span></a>
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Past<span class="caret"></span></a>
 	          <ul class="dropdown-menu">
-	            <li><a href="#">Event 1</a></li>
-	            <li><a href="#">Event 2</a></li>
-	            <li><a href="#">Event 3</a></li>
+	            <li><a href="#">2016-2017</a></li>
+	            <li><a href="#">2017-2018</a></li>
 	            <li role="separator" class="divider"></li>
 	            <li><a href="#">Separated Event</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Separated Event 2</a></li>
+
 	          </ul>
 	        </li>
-	      </ul>
+	      </ul><!--End of Extra Links -->
 	      
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">SubGroups</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SubGroups <span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Web Dev</a></li>
-	            <li><a href="#">Cyber DT</a></li>
-	            <li><a href="#">Programming</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Game Dev</a></li>
-	          </ul>
-	        </li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
+	      <ul class="nav navbar-nav navbar-right pull-right" id="groupnav">
+	            <li><a href="#">Web Development</a></li>
+	            <li><a href="#">Cyber Defense Team</a></li>
+	            <li><a href="#">Programming Team</a></li>
+	            <li><a href="#">Game Development</a></li>
+	      </ul><!--End of Division Link -->
+	    </div><!--End of Navbar -->
+	  </div><!--End of Container -->
 	</nav>
-    <!---->
-    <!--Body Layoyut-->
+   <!--Navigation Close -->
+
+
+   <!--Body Layoyut-->
     <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+			<div class="row" id="renderedbody">
+                <div class="col-md-10" id="maincontent">
+                    @RenderBody()
+                    <h1>Title Here</h1>
+                </div>
+                <div class="col-md-2" id="socialmedia">
+                    <h2>Social Media</h2>
+                </div>
+			</div>
+        <div class="row">
+            <div class="col-md-12">
+                <footer id="sitemap">
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                </footer>
+            </div>
+        </div>
+
     </div>
     <!--Body close-->
 
