@@ -168,8 +168,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CyberController.cs" />
+    <Compile Include="Controllers\GameDevController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProgrammingController.cs" />
+    <Compile Include="Controllers\WebDevController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -235,6 +239,26 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Cyber\Index.cshtml" />
+    <Content Include="Views\Cyber\Resources.cshtml" />
+    <Content Include="Views\Cyber\Event.cshtml" />
+    <Content Include="Views\Cyber\Agenda.cshtml" />
+    <Content Include="Views\Cyber\Info.cshtml" />
+    <Content Include="Views\Programming\Agenda.cshtml" />
+    <Content Include="Views\Programming\Event.cshtml" />
+    <Content Include="Views\Programming\Index.cshtml" />
+    <Content Include="Views\Programming\Info.cshtml" />
+    <Content Include="Views\Programming\Resources.cshtml" />
+    <Content Include="Views\GameDev\Agenda.cshtml" />
+    <Content Include="Views\GameDev\Event.cshtml" />
+    <Content Include="Views\GameDev\Index.cshtml" />
+    <Content Include="Views\GameDev\Info.cshtml" />
+    <Content Include="Views\GameDev\Resources.cshtml" />
+    <Content Include="Views\WebDev\Agenda.cshtml" />
+    <Content Include="Views\WebDev\Event.cshtml" />
+    <Content Include="Views\WebDev\Index.cshtml" />
+    <Content Include="Views\WebDev\Info.cshtml" />
+    <Content Include="Views\WebDev\Resources.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
