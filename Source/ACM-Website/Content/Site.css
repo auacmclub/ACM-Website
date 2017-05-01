@@ -33,7 +33,7 @@ textarea {
     */
 #fullnav{ /*Coloring this touches the entire nav, Andrew*/
      font-weight:bold;
-     color:white;
+     color:#ffffff;
      background-color:#002f55;
 
 }
@@ -44,12 +44,17 @@ textarea {
     color:white;
     background-color:#002f55;
 }
+<<<<<<< HEAD
 #infonav a{
     color:white;
+=======
+#infonav li{
+    color:#ffffff;
+>>>>>>> d40cf9595bfca89affc22cdbafca67019b03e6e1
 }
 #groupnav{ /*Coloring this touches the group division links, Andrew*/
     background-color:#A5ACAF;
-    color:white;
+    color:#ffffff;
 }
 #groupnav a{
     color:white;
@@ -57,7 +62,7 @@ textarea {
 /*Body CSS*/
 #renderedbody{
     background-color:#A5ACAF;
-    color:black;
+    color:#000000;
 
 }
 #maincontent{
