@@ -44,13 +44,8 @@ textarea {
     color:white;
     background-color:#002f55;
 }
-<<<<<<< HEAD
-#infonav a{
-    color:white;
-=======
-#infonav li{
-    color:#ffffff;
->>>>>>> d40cf9595bfca89affc22cdbafca67019b03e6e1
+#infonav a {
+    color: white;
 }
 #groupnav{ /*Coloring this touches the group division links, Andrew*/
     background-color:#A5ACAF;
