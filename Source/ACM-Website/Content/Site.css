@@ -37,15 +37,21 @@ textarea {
      background-color:#002f55;
 
 }
+#navlogo{ /*Logo*/
+    height:50px;
+}
 #infonav{/*Coloring this touches the extra nav links, (e.g. blog, events,etc), Andrew*/
-    color:white !important;
+    color:white;
     background-color:#002f55;
 }
-#infonav li{
+#infonav a{
     color:white;
 }
 #groupnav{ /*Coloring this touches the group division links, Andrew*/
     background-color:#A5ACAF;
+    color:white;
+}
+#groupnav a{
     color:white;
 }
 /*Body CSS*/

@@ -7,7 +7,7 @@ using System.Web.Mvc;
 namespace ACM_Website.Controllers
 {
     public class CyberController : Controller
-    {
+    {   //Jeremy
         // GET: Cyber
         // ActionResult returns HTML page
         public ActionResult Index()
@@ -28,7 +28,7 @@ namespace ACM_Website.Controllers
         }
         public ActionResult Info()
         {
-            return Info();
+            return View();
         }
     }
 }

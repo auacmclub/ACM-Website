@@ -7,11 +7,12 @@ using System.Web.Mvc;
 namespace ACM_Website.Controllers
 {
     public class GameDevController : Controller
-    {
+    {   //Game Dev
         // GET: GameDev
         // ActionResult returns HTML
         public ActionResult Index()
         {
+            ViewBag.Whatever = "Whatever";
             return View();
         }
         public ActionResult Resources()
@@ -28,7 +29,7 @@ namespace ACM_Website.Controllers
         }
         public ActionResult Info()
         {
-            return Info();
+            return View();
         }
     }
 }
