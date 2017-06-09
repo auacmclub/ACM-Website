@@ -43,10 +43,10 @@
 	      </ul><!--End of Extra Links -->
 	      
 	      <ul class="nav navbar-nav navbar-right pull-right" id="groupnav">
-	            <li><a href="#">Web Development</a></li>
-	            <li><a href="#">Cyber Defense Team</a></li>
-	            <li><a href="#">Programming Team</a></li>
-	            <li><a href="#">Game Development</a></li>
+	            <li><a href="~/WebDev/Index">Web Development</a></li>
+	            <li><a href="~/Cyber/Index">Cyber Defense Team</a></li>
+	            <li><a href="~/Programming/Index">Programming Team</a></li>
+	            <li><a href="~/GameDev/Index">Game Development</a></li>
 	      </ul><!--End of Division Link -->
 	    </div><!--End of Navbar -->
 	  </div><!--End of Container -->
@@ -58,7 +58,7 @@
     <div class="container body-content">
 			<div class="row">
                 <div class="col-md-10" id="maincontent">
-                    <h1>@ViewBag.Title</h1>
+                    <h2>@ViewBag.Title</h2>
                     @RenderBody()
                 </div>
                 <div class="col-md-2" id="socialmedia">
@@ -68,7 +68,7 @@
         <div class="row">
             <div class="col-md-12">
                 <footer id="sitemap">
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+                    <p>&copy; @DateTime.Now.Year - ACM Website!</p>
                 </footer>
             </div>
         </div>
