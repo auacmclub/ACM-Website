@@ -1,4 +1,34 @@
-﻿@{
+<!DOCTYPE html>
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
+    View.Bag.Title = "Cyber Defense Events";
 }
 
+<div class="row" id="partialnav">
+  <div class="col-md-12">
+    <ul class="nav nav-tabs">
+      <li><a href="~/Cyber/Index">Home</a></li>
+      <li><a href="~/Cyber/Resources">Resources</a></li>
+      <li><a href="~/Cyber/Event">Event</a></li>
+      <li><a href="~/Cyber/Info">Info</a></li>
+      <li><a href="~/Cyber/Agenda">Agenda</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h3>Upcoming Events</h3>
+    <ol>
+      <li>CCDC - TBD</li>
+      <li>Linux Certification - TBD</li>
+      <li>CCDC Prep - TBD</li>
+    </ol>
+  </div>
+</div>
+
+<div class="row">
+    <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
+        <iframe src="https://calendar.google.com/calendar/embed?src=trueleo1%40gmail.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+</div>
