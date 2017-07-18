@@ -197,6 +197,7 @@
     <Content Include="Images\AugustaUniversity_S_REVERSED.png" />
     <Content Include="Images\AugustaUniversity_S_RGB.png" />
     <Content Include="Images\AU_White.png" />
+    <Content Include="Images\bluebg.jpg" />
     <Content Include="Images\bluecentergradient.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
