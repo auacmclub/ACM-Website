@@ -1,5 +1,30 @@
 ﻿@{
     Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Game Development Events";
 }
 
+<div class="row" id="partialnav">
+    <div class="col-md-12">
+        <ul class="nav nav-tabs">
+            <li><a href="~/GameDev/Index">Home</a></li>
+            <li><a href="~/GameDev/Resources">Resources</a></li>
+            <li><a href="~/GameDev/Event">Event</a></li>
+            <li><a href="~/GameDev/Agenda">Agenda</a></li>
+        </ul>
+    </div>
+</div>
 
+<div class="row">
+    <div class="col-md-12">
+        <h3>Upcoming Events</h3>
+        <ol>
+            <li>First Meeting: Friday August 25th all day University Hall Room 129</li>
+        </ol>
+    </div>
+</div>
+<!-- Change this to a calendar not under Andrew's account -->
+<div class="row">
+    <div class="hidden-xs hidden-sm col-md-12 col-lg-12">
+        <iframe src="https://calendar.google.com/calendar/embed?src=trueleo1%40gmail.com&ctz=America/New_York" style="border: 2px" width="800" height="600" frameborder="0" scrolling="no" title="CDT">Cyber Defense Team Calender</iframe>
+    </div>
+</div>
