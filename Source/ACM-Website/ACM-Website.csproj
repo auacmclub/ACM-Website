@@ -204,6 +204,10 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Stylesheets\AgendaCSS.css" />
+    <Content Include="Stylesheets\EventsCSS.css" />
+    <Content Include="Stylesheets\HomeCSS.css" />
+    <Content Include="Stylesheets\ResourcesCSS.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
