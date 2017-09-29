@@ -1,4 +1,4 @@
-PRIMARY PALATTE:
+	PRIMARY PALATTE:
 
 Augusta Blue:
 #002f55
