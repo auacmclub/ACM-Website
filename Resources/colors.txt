@@ -1,8 +1,0 @@
-PRIMARY PALATTE:
-
-Augusta Blue:
-#002f55
-
-Augusta Grey:
-#A5ACAF
-
